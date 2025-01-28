@@ -109,7 +109,7 @@ input {
 .content {
     position: absolute;
     width: fixed 588px;
-    height: hug 378px;
+    height: 378px;
     left: 10%;
     top: 30%;
     z-index: 1000;
@@ -135,8 +135,8 @@ input {
 
 .Chooseus {
     display:flex;
-    width: Fixed (1,440px)px;
-    height: Hug (706px)px;
+    width: Fixed 1,440px;
+    height: 706px;
     gap: 0px;
     opacity: 0px;
     z-index: 1000;
@@ -149,8 +149,8 @@ input {
 .box1 {
     display: flex;
     flex-direction: column;
-    width: Fixed (1,120px)px;
-    height: Hug (176px)px;
+    width: Fixed 1,120px;
+    height: 176px;
     gap: 20px;
     border: 0px 0px 1px 0px;
     opacity: 0px;
@@ -197,8 +197,8 @@ input {
 .box2 {
     display: flex;
     flex-direction: row;
-    width: Fixed (1,120px)px;
-    height: Hug (280px)px;
+    width: Fixed 1,120px;
+    height: 280px;
     gap: 32px;
     align-items: center;
     justify-content: center;
@@ -222,20 +222,15 @@ input {
     color: #0D0D0D;
 }
 
-/* .ri-pulse-line {
+.trendbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
-
-.trendbox {
-    display: flex;
-    flex-direction: column;
-    width: Fixed (352px)px;
-    height: Hug (280px)px;
+    width: Fixed 352px;
+    height: 280px;
     padding: 40px 20px 40px 20px;
-    gap: 12px;
+    gap: 15px;
     border-radius: 30px 0px 0px 0px;
     opacity: 0px;
     background: #F9F9FB;
@@ -247,7 +242,7 @@ input {
     flex-direction: column;
     width: 312px;
     height: 32px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 24px;
@@ -263,7 +258,7 @@ input {
     flex-direction: column;
     width: 312px;
     height: 96px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 16px;
@@ -277,10 +272,12 @@ input {
 .donationbox {
     display: flex;
     flex-direction: column;
-    width: Fixed (352px)px;
-    height: Hug (280px)px;
+    justify-content: center;
+    align-items: center;
+    width: Fixed 352px;
+    height: 280px;
     padding: 40px 20px 40px 20px;
-    gap: 12px;
+    gap: 15px;
     border-radius: 30px 0px 0px 0px;
     opacity: 0px;
     background: #F9F9FB;
@@ -292,7 +289,7 @@ input {
     flex-direction: column;
     width: 312px;
     height: 32px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 24px;
@@ -307,7 +304,7 @@ input {
     flex-direction: column;
     width: 312px;
     height: 96px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 16px;
@@ -320,10 +317,12 @@ input {
 .supportbox {
     display: flex;
     flex-direction: column;
-    width: Fixed (352px)px;
-    height: Hug (280px)px;
+    justify-content: center;
+    align-items: center;
+    width: Fixed 352px;
+    height: 280px;
     padding: 40px 20px 40px 20px;
-    gap: 12px;
+    gap: 15px;
     border-radius: 30px 0px 0px 0px;
     opacity: 0px;
     background: #F9F9FB;
@@ -335,7 +334,7 @@ input {
     flex-direction: column;
     width: 312px;
     height: 32px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 24px;
@@ -350,7 +349,7 @@ input {
     flex-direction: column;
     width: 312px;
     height: 96px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 16px;
@@ -363,8 +362,8 @@ input {
 .popular {
     display: flex;
     flex-direction: column;
-    width: Fixed (1,484px)px;
-    height: Hug (939px)px;
+    width: Fixed 1,484px;
+    height: 939px;
     padding: 48px 120px 48px 120px;
     gap: 40px;
     opacity: 0px;
@@ -375,8 +374,8 @@ input {
     flex-direction: column;
    justify-content: center;
    align-items: center;
-    width: Fill (1,244px)px;
-    height: Hug (118px)px;
+    width: Fill 1,244px;
+    height: 118px;
     gap: 8px;
     opacity: 0px;
 }
@@ -433,8 +432,8 @@ input {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: Hug (1,200px)px;
-    height: Hug (553px)px;
+    width: 1,200px;
+    height: 553px;
     gap: 34px;
     opacity: 0px;
 
@@ -443,8 +442,8 @@ input {
 .ratingbox {
     display: flex;
     flex-direction: column;
-    width: Fixed (384px)px;
-    height: Fixed (553px)px;
+    width: Fixed 384px;
+    height: Fixed 553px;
     padding: 24px 24px 32px 24px;
     gap: 32px;
     border-radius: 8px 0px 0px 0px;
@@ -457,8 +456,8 @@ input {
 .ratingbox2 {
     display: flex;
     flex-direction: column;
-    width: Fixed (384px)px;
-    height: Fixed (553px)px;
+    width: Fixed 384px;
+    height: Fixed 553px;
     padding: 24px 24px 32px 24px;
     gap: 32px;
     border-radius: 8px 0px 0px 0px;
@@ -470,8 +469,8 @@ input {
 .ratingbox3 {
     display: flex;
     flex-direction: column;
-    width: Fixed (384px)px;
-    height: Fixed (553px)px;
+    width: Fixed 384px;
+    height: Fixed 553px;
     padding: 24px 24px 32px 24px;
     gap: 32px;
     border-radius: 8px 0px 0px 0px;
@@ -489,22 +488,22 @@ input {
 }
 
 .ratingbox h1 {
-    width: Fill (336px)px;
-    height: Hug (64px)px;
+    width: Fill 336px;
+    height: 64px;
     gap: 16px;
     opacity: 0px;
 }
 
 .ratingbox2 h1 {
-    width: Fill (336px)px;
-    height: Hug (64px)px;
+    width: Fill 336px;
+    height: 64px;
     gap: 16px;
     opacity: 0px;
 }
 
 .ratingbox3 h1 {
-    width: Fill (336px)px;
-    height: Hug (64px)px;
+    width: Fill 336px;
+    height: 64px;
     gap: 16px;
     opacity: 0px;
 }
@@ -608,12 +607,12 @@ input {
 }
 
 .explore {
-    width: Hug (184px);
-    height: Hug (40px);
+    width: 184px;
+    height: 40px;
     padding: 10px 16px 10px 16px;
     gap: 8px;
-    border-radius: 8px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
+    border-radius: 8px;
+    border: 1px;
     opacity: 0px;   
 }
 
@@ -640,17 +639,17 @@ input {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    width: Fill (1,440px);
-    height: Hug (853.87px);
-    padding: 48px 100px 48px 100px;
+    width: Fill 1,440px;
+    height: 853.87px;
+    padding: 48px 100px;
     gap: 60px;
     opacity: 0px;
 }
 
 .project1 {
     display: flex;
-    width: Fixed (1,200px);
-    height: Fixed (81px);
+    width: Fixed 1,200px;
+    height: Fixed 81px;
     gap: 225.42px;
     opacity: 0px;
 }
@@ -658,8 +657,8 @@ input {
 .project-text {
     display: flex;
     flex-direction: column;
-    width: Fill (883.51px)px;
-    height: Hug (100px)px;
+    width: Fill 883.51px;
+    height: 100px;
     gap: 8px;
     opacity: 0px;
 }
@@ -694,8 +693,8 @@ input {
 }
 
 .project-viewbox {
-    width: Hug (91.07px);
-    height: Hug (47.05px);
+    width: 91.07px;
+    height: 47.05px;
     padding: 13.53px 18.03px 13.53px 18.03px;
     gap: 6.01px;
     border-radius: 6.01px;
@@ -725,8 +724,8 @@ input {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    width: Fixed (1,200px);
-    height: Hug (616.87px);
+    width: Fixed 1,200px;
+    height: 616.87px;
     gap: 22.54px;
     opacity: 0px;
 }
@@ -734,8 +733,8 @@ input {
 .project2-box {
     display: flex;
     flex-direction: column;
-    width: Fixed (588.73px);
-    height: Fixed (616.87px);
+    width: Fixed 588.73px;
+    height: Fixed 616.87px;
     padding: 37.57px;
     gap: 22.54px;
     border-radius: 9.02px;
@@ -756,8 +755,8 @@ input {
 .imgtext {
     display: flex;
     flex-direction: column;
-    width: Fill (513.59px)px;
-    height: Hug (433.06px)px;
+    width: Fill 513.59px;
+    height: 433.06px;
     gap: 50px;
     opacity: 0px;
 }
@@ -765,8 +764,8 @@ input {
 .project2-text {
     display: flex;
     flex-direction: column;
-    width: Fill (513.59px);
-    height: Hug (140.06px);
+    width: Fill 513.59px;
+    height: 140.06px;
     gap: 10px;
     opacity: 0px;
 }
@@ -803,8 +802,8 @@ input {
 }
 
 .project2-viewbox {
-    width: Fill (513.59px);
-    height: Hug (47.05px);
+    width: Fill 513.59px;
+    height: 47.05px;
     padding: 13.53px 18.03px 13.53px 18.03px;
     gap: 6.01px;
     border-radius: 6.01px;
@@ -816,8 +815,6 @@ input {
     font-weight: 500;
     line-height: 20.29px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 .project2-view {
@@ -825,22 +822,32 @@ input {
     height: 20px;
     gap: 0px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
+    font-family: Vietnam Pro;
     font-size: 13.53px;
     font-weight: 500;
     line-height: 20.29px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #F3EEEE;
 }
 
 .aboutus {
     display: flex;
-    align-items: center;
-    justify-items: center;
     width: 1440px;
     height: 642px;
+    padding: 50px;
+    gap: 0px;
+    opacity: 0px;
+    background: #E3F3FACC;
+}
+
+.aboutus-text {
+    width: Fill 1,440px;
+    height: 734px;
+    padding: var(--Spacing-1) 15px var(--Spacing-1) 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
     gap: 50px;
     opacity: 0px;
     background: #E3F3FACC;
@@ -849,8 +856,8 @@ input {
 .learn {
     display: flex;
     flex-direction: column;
-    width: Fixed (616px)px;
-    height: Hug (321px)px;
+    width: 616px;
+    height: 321px;
     top: 160.13px;
     left: 100px;
     gap: 0px;
@@ -860,8 +867,8 @@ input {
 .learn-text {
     display: flex;
     flex-direction: column;
-    width: Fixed (588px)px;
-    height: Hug (281px)px;
+    width: 588px;
+    height: 281px;
     gap: 12px;
     opacity: 0px;
 }
@@ -869,8 +876,8 @@ input {
 .learn-text2 {
     display: flex;
     flex-direction: column;
-    width: Fixed (588px)px;
-    height: Hug (281px)px;
+    width: 588px;
+    height: 281px;
     gap: 12px;
     opacity: 0px;
 }
@@ -878,15 +885,13 @@ input {
 .learn-text h4 {
     width: 588px;
     height: 24px;
-    gap: 0px;
+    gap: 10px;
     opacity: 0px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
     line-height: 24.38px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #0093D5;
 }
 
@@ -900,8 +905,6 @@ input {
     font-weight: 600;
     line-height: 39.01px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #000000;
 }
 
@@ -915,13 +918,11 @@ input {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #000000;
 }
 
 .learn-button {
-    width: Fixed 104px;
+    width: 104px;
     height: 40px;
     padding: 10px;
     gap: 10px;
@@ -944,8 +945,6 @@ input {
     font-weight: 600;
     line-height: 20px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #FFFFFF;
 }
 
@@ -957,4 +956,134 @@ input {
     border-radius: 20px;
     opacity: 0px;
 
+}
+
+.volunteer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: Fixed 1,440px;
+    height: 734px;
+    gap: 30px;
+    opacity: 0px;
+    background: #E3F3FACC;
+}
+
+.volunteer-box {
+    display: flex;
+    flex-direction: row;
+    width: Fill 1,440px;
+    padding: var(--Spacing-1) 15px var(--Spacing-1) 15px;
+    gap: 32px;
+    opacity: 10px;
+}
+
+.volunteer-img {
+    display: flex;
+    width: 656px;
+    height: 450px;
+    gap: 10px;
+    border-radius: 20px;
+    opacity: 0px;
+}
+
+.volunteer-block {
+    width: Fixed 544px;
+    height: 534px;
+    padding-top: 89px;
+    padding-bottom: 89px;
+    gap: 40px;
+    opacity: 0px;
+}
+
+.volunteer-text {
+    width: Fill 544px;
+    height: 272px;
+    gap: 20px;
+    opacity: 0px;
+}
+
+.volunteer-text h1 {
+    width: 544px;
+    height: 180px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #0D0D0D;
+}
+
+.volunteer-text p {
+    width: 457px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #808080;
+}
+
+.volunteer-button {
+    display: flex;
+    width: 262px;
+    height: 44px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.volunteer-btn1 {
+    width: Fixed 104px;
+    height: 40px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #0093D5;
+}
+
+.volunteer-btn1 a {
+    width: 60px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.volunteer-btn2 {
+    width: Hug (148px)px;
+    height: Hug (44px)px;
+    padding: 10px 16px 10px 16px;
+    gap: 6px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #FCFCFC;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.volunteer-btn2 a {
+    width: 90px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #0D0D0D;
 }
