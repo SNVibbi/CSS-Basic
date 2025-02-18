@@ -1623,9 +1623,121 @@ input {
 .footer-detailsbox {
     display: flex;
     flex-direction: row;
-    width: Fixed 419px;
+    width: 419px;
     height: 190px;
     gap: 0px;
     justify-content: space-between;
     opacity: 0px;
 }
+
+.footer-pages {
+    width: 89px;
+    height: 190;
+    gap: 20px;
+}
+
+.footer-pagesbox {
+    width: 89;
+    height: 140;
+    gap: 5px;
+    color: #F1F1F3;
+}
+
+.footer-pages h1 {
+    width: 67;
+    height: 30;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer-pagesbox a {
+    width: 89;
+    height: 24;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 5px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer-socials {
+    width: 145;
+    height: 103;
+    gap: 20px;
+}
+
+.footer-socials h1 {
+    width: 145;
+    height: 30;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer-socialsbox {
+    display: flex;
+    flex-direction: column;
+    width: 145;
+    height: 73;
+    gap: 10px;
+}
+
+.footer-socialsbox a {
+    width: 78;
+    height: 24;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer-box h1 {
+    display: flex;
+    flex-direction: row;
+    width: 135;
+    height: 30;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer-flags {
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    width: 120px;
+    height: 51.867218017578125px;
+    gap: 10px;
+}
+
+.footer-flags img {
+    width: 120px;
+    height: 51.867218017578125px;    
+}
+
+.footer-divider {
+    width: 1322;
+    height: 72;
+    gap: 5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top-width: 1px;
+    border-top: 1px solid #D6D6D6
+}
+
